@@ -7,7 +7,6 @@
 <br/>
 <br/>
 
-> ###      *Made with love by `stronk`, Good Luck :)*
 <br/>
 
 # 🖥️ Operating systems
@@ -264,3 +263,7 @@ Root privileges are the powers that the root account has on the system. The root
 ***Firewall*** is a security device — computer hardware or software — that can help protect your network by filtering traffic and blocking outsiders from gaining unauthorized access to the private data on your computer.
 
 UFW, or Uncomplicated Firewall, is an interface to iptables that is geared towards simplifying the process of configuring a firewall.
+
+<br/>
+
+> ####      *Made with love by `stronk`, Good Luck :)*
