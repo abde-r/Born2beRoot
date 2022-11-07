@@ -14,7 +14,9 @@
 
 An **operating system** (**OS**) is system software that manages computer hardware, software resources, and provides common services for computer programs.
 <br/>
-<img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/61cb93f2-c7e4-451f-9e5c-3ace75d89524/os.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220426%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220426T183000Z&X-Amz-Expires=86400&X-Amz-Signature=6493a32fd7ed88e9e0814beaa85b0d52120ab483ae788af9446ca29cbf222111&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22os.png%22&x-id=GetObject" />
+
+![os](https://user-images.githubusercontent.com/94312066/200385803-52914cee-c83a-4dfd-bf73-922052727237.png)
+
 ### ***what an os does and why we need it?***
 
 first of all an operating system is a program that manage computer hardware (resources like CPU, Memory, I/O devices) and provides a basis for application programs and acts as an intermediary between computer software and hardware, it actually manage the hardware.
@@ -24,7 +26,8 @@ System softwares: are the softwares that are used to directly give commands to t
 Application programs:  are programs that perform a specific task and they're directly used by the user(Text editors, compilers, navigators...)
 
 <br/>
-<img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/00fa58bc-51e8-4410-bf79-0cd7dca728f0/Screen_Shot_2021-12-05_at_11.50.29_AM.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220426%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220426T183113Z&X-Amz-Expires=86400&X-Amz-Signature=ab3d77ce41474ba7776b315e46d040e465cef4ca5e5df78dd9a20c6577e5e0e8&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Screen%2520Shot%25202021-12-05%2520at%252011.50.29%2520AM.png%22&x-id=GetObject" />
+<img width="1917" alt="Screen Shot 2021-12-05 at 11 50 29 AM" src="https://user-images.githubusercontent.com/94312066/200385996-1239bd1c-48d6-48c9-8e0b-d8970071094a.png">
+
 
 OS make computer system using by user very easier;
 
@@ -33,7 +36,8 @@ OS make computer system using by user very easier;
 ### *S**torage Structures***
 
 Storage device hierarchy:
-<img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/e549305d-4a3e-4c60-96c2-399e9bf7bc7b/Screen_Shot_2021-12-05_at_12.06.23_PM.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220426%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220426T183159Z&X-Amz-Expires=86400&X-Amz-Signature=cbef4db9af5aadfa1aaa7c477eaa7a517725590933473629a29ce4ff284c70cc&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Screen%2520Shot%25202021-12-05%2520at%252012.06.23%2520PM.png%22&x-id=GetObject" />
+<img width="1202" alt="Screen Shot 2021-12-05 at 12 06 23 PM" src="https://user-images.githubusercontent.com/94312066/200386126-1106f150-ed6b-49ec-b4b5-0b4c43ce9327.png">
+
 
 all we need to know about is Main Memory (RAM), so anything loaded to the computer get loaded to the main memory and there where it's executed, but as we can see, the main memory has a smaller size but it's fats to access, so we store data in  second memory (cuz of the larger size), but we do load it to the main memory and then executed.
 
@@ -75,7 +79,8 @@ When a program makes a call to the OS saying "Yo! i need to use a particular res
 
 User and kernel modes are modes of operation where a program can be executed. When a program executing in the Privileged mode(Kernel mode) and it's happens to crash during execution, then the whole system would crash. but it's not the case for the user mode.
 
-<img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/953a2d20-2621-40e0-afce-ea95c39c28cf/Screen_Shot_2021-12-05_at_5.11.49_PM.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220426%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220426T183305Z&X-Amz-Expires=86400&X-Amz-Signature=cd4a8114ed223c8bc401a335a9e3534a016e1d52cf0ee881ce1c0ffbe7e613c0&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Screen%2520Shot%25202021-12-05%2520at%25205.11.49%2520PM.png%22&x-id=GetObject" />
+<img width="878" alt="Screen Shot 2021-12-05 at 5 11 49 PM" src="https://user-images.githubusercontent.com/94312066/200386237-3fcd7c18-afe1-4c39-8e15-5df235789305.png">
+
 
 <br/>
 
@@ -85,7 +90,8 @@ User and kernel modes are modes of operation where a program can be executed. Wh
 
 A virtual machine (VM) is a virtual environment that works like a computer within a computer. It runs on an isolated partition of its host computer with its own CPU power, memory, operating system (such as Windows, Linux, macOS), and other resources. End users can run applications on VMs and use them as they normally would on their workstations.
 
-<img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/4bc5c847-8476-4ffe-b663-eaf3ac855ae9/Screen_Shot_2021-12-05_at_6.46.31_PM.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220426%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220426T183353Z&X-Amz-Expires=86400&X-Amz-Signature=779e064ea738e5d4029b70a91261e5507bf3e3b4f052fa2d374fc4415e3a3640&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Screen%2520Shot%25202021-12-05%2520at%25206.46.31%2520PM.png%22&x-id=GetObject" />
+<img width="1034" alt="Screen Shot 2021-12-05 at 6 46 31 PM" src="https://user-images.githubusercontent.com/94312066/200386352-986a06a4-bfae-4b2f-8100-f8f505c059c5.png">
+
 
 ### Why VM's
 
@@ -100,7 +106,8 @@ The HyperVisor(the software that creates and runs VMs) takes hardware resources 
 
 ***HyperVisor 2 Types:***
 
-<img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/89fdaf2b-e462-4b5f-8175-5e4cd9ca84af/t1t2.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220426%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220426T183427Z&X-Amz-Expires=86400&X-Amz-Signature=4052adbc16b5d0326014de3176f2e3569c3878aa3776be8e66d0dab7e044c40e&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22t1t2.jpeg%22&x-id=GetObject" />
+![t1t2](https://user-images.githubusercontent.com/94312066/200386434-f719906b-77a3-4c34-b04e-e6fe7c3e9a80.jpeg)
+
 
 ***NB:*** you only can share hardware resources you actually have.
 
@@ -110,7 +117,8 @@ The HyperVisor(the software that creates and runs VMs) takes hardware resources 
 
 Ssh is a protocol(a set of rules) that allows 2 machines to communicate securely over a network(Client(Local machine) and Server(Remote machine)).
 
-<img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/4f395a80-6841-4153-a527-a0a88f7dfe26/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220426%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220426T183515Z&X-Amz-Expires=86400&X-Amz-Signature=c4c00dd7508f8e05cf3297f5242975267a9a3f9c9396304dccaa16f7fc2045fb&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject" />
+![Untitled](https://user-images.githubusercontent.com/94312066/200386538-2f128d28-83f8-417c-ab78-924d2a721458.png)
+
 
 How SSH works?
 
@@ -122,7 +130,8 @@ ssh uses asymmetric cypher(algorithm or function for performing encryption or de
 
 cypher asymmetric public and private keys.
 
-<img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/cbd8c5a0-0fc4-473d-8796-9a4be9b03cfa/15587061232df935af013e8b343cac7e.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220426%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220426T183541Z&X-Amz-Expires=86400&X-Amz-Signature=baf20322f87a03f880e26d8db5caf28a95f34099b0321a58708b26ac57d3e1f1&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%2215587061232df935af013e8b343cac7e.png%22&x-id=GetObject" />
+![15587061232df935af013e8b343cac7e](https://user-images.githubusercontent.com/94312066/200386591-e51bedd4-21a4-47dd-89f6-a0c70cc6aee1.png)
+
 
 <br/>
 SSH servers can authenticate clients using a variety of methods.
@@ -140,14 +149,17 @@ Key-based authentication improves the system security even further by generatin
 
 A **Linux distribution** (often abbreviated as **distro**) is an operating system made from a software collection that is based upon the Linux kernel and, often, a package management system.
 
-<img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/1e1ab5f8-49d7-451a-9b18-f68613ef26ab/linuxdis.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220426%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220426T183619Z&X-Amz-Expires=86400&X-Amz-Signature=781630c6218656f9fb576d54c574c0ce1a0dd5dd0b44741566b3a81e250deeea&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22linuxdis.jpeg%22&x-id=GetObject" />
+![linuxdis](https://user-images.githubusercontent.com/94312066/200386688-7adebe75-7387-4a90-9e3c-b3789baef939.jpeg)
+
 
 ### Partitions
 
 A hard disk can be divided into several *partitions*. Each partition functions as if it were a separate hard disk. The idea is that if you have one hard disk, and want to have, say, two operating systems on it, you can divide the disk into two partitions. Each operating system uses its partition as it wishes and doesn't touch the other ones. This way the two operating systems can co-exist peacefully on the same hard disk. Without partitions one would have to buy a hard disk for each operating system.
 
 ### Linux Directory Structure
-<img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/6e52d1f1-6434-48d7-8dec-d0d13e0b1901/etc.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220426%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220426T183701Z&X-Amz-Expires=86400&X-Amz-Signature=ba224ef55184892914e4765fcba8291d2a42dcdf7172f6020b923ec16eebf102&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22etc.png%22&x-id=GetObject" />
+
+![etc](https://user-images.githubusercontent.com/94312066/200386755-b73099e8-e8d8-4b6c-aec1-b14815db0a98.png)
+
 
 ### **Package Management System:**
 
@@ -177,7 +189,8 @@ Debian is generally considered more suitable for Linux experts than for beginner
 
 Due to the lack of complex support from the community, it is difficult for Linux newbies to master CentOS. Instead, because it is based on enterprise-grade RHEL, CentOS is generally preferred by companies and web agencies that are already familiar with Linux distributions.
 
-<img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/961b12b6-3712-4afb-be16-9ca3c539456a/centosdebian.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220426%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220426T183729Z&X-Amz-Expires=86400&X-Amz-Signature=fa823eed41114691812972dc59ea197028bcd742f3e7c1e451a8e3b29e831331&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22centosdebian.png%22&x-id=GetObject" />
+![centosdebian](https://user-images.githubusercontent.com/94312066/200386815-f91f3271-c11d-46bf-936a-db2f53a824a5.png)
+
 
 <br/>
 # APT vs Aptitude
@@ -186,7 +199,8 @@ The first difference you will notice is that APT is a lower-level package manage
 
 Another big difference is the functionality offered by both of the tools. Aptitude offers better functionality compared to apt-get. In fact, it contains the functionalities of apt-get, apt-mark, and apt-cache.
 
-<img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/ec2a4435-0a59-41b4-b8ca-f82fce0328e7/apt.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220426%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220426T183818Z&X-Amz-Expires=86400&X-Amz-Signature=0278e3e52ec47ce842aba77bc8fb27394eb49f86f49e741ac41e05a628638a63&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22apt.png%22&x-id=GetObject" />
+![apt](https://user-images.githubusercontent.com/94312066/200386882-e97a0c54-998e-414f-a2cb-912430ea8091.png)
+
 
 `apt-get` (and `apt-cache`) is the classic interface, `apt` is the newer UI with the same functionality. `aptitude` is an old optional program that has a different resolver strategy, an optional full-screen UI and some other features. While some people use it for the additional features, others seem to think its resolver is better.
 
@@ -223,7 +237,8 @@ AppArmor is notably different than SeLinux, in fact the security modules cannot 
 
 The kernel is a computer program at the core of a computer's operating system and has complete control over everything in the system. It is the "portion of the operating system code that is always resident in memory", and facilitates interactions between hardware and software components.
 
-<img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/728d56b6-4c76-4637-a457-e92beaf9a7f7/kernel.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220426%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220426T183906Z&X-Amz-Expires=86400&X-Amz-Signature=fe8feb9f38a19f0743faf398ce7db6c7d322d06a9543119af62c05a469d7024f&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22kernel.jpeg%22&x-id=GetObject" />
+![kernel](https://user-images.githubusercontent.com/94312066/200386958-77446bde-3b0d-44e6-8cfd-cc30c4eb880b.jpeg)
+
 
 What the kernel does
 
